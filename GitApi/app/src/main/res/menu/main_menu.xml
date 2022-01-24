@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Top10"
+        android:title="Top 10"
+        />
+    <item
+        android:id="@+id/Top20"
+        android:title="Top 20"
+        />
+    <item
+        android:id="@+id/Top30"
+        android:title="Top 30"
+        />
+    <item
+        android:id="@+id/language"
+        android:title="Language"
+        >
+
+        <menu>
+
+            <item
+                android:id="@+id/java"
+                android:title="Java"
+                />
+            <item
+                android:id="@+id/go"
+                android:title="Go"
+                />
+            <item
+                android:id="@+id/shell"
+                android:title="Shell"
+                />
+            <item
+                android:id="@+id/objective_c"
+                android:title="Objective-C"
+                />
+            <item
+                android:id="@+id/javaScript"
+                android:title="JavaScript"
+                />
+            <item
+                android:id="@+id/jupyterNotebook"
+                android:title="Jupyter Notebook"
+                />
+        </menu>
+    </item>
+
+</menu>
+
